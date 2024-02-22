@@ -1,0 +1,23 @@
+.post{
+    width: 50%;
+    margin: auto;
+}
+
+.post-header{
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+}
+
+.post-header img{
+    margin: auto;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.post-icons {
+    display: flex;
+}
