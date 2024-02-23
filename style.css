@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Roboto', sans-serif;
 }
 
 .post{
@@ -11,6 +12,15 @@ body{
     height: 45px;
     background-color: white;
     display: flex;
+}
+
+.username{
+    font-size: 15px;
+    padding-top: 5px;
+   bottom: 25px;
+   left: 10px;
+   display: flex;
+   flex-direction: column;
 }
 
 .ellipsis {
@@ -27,12 +37,6 @@ body{
 .post-header img{
     height: 90%;
     width: auto;
-}
-
-img{
-    max-width: 100%;
-    height: auto;
-    background-color: white;
 }
 
 .post-body{
@@ -75,4 +79,15 @@ p{
 
 .description{
     padding-bottom: 20px;
+}
+
+.post-img img, .post-body {
+    margin: 0;
+    padding: 0;
+}
+
+.post-img img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
